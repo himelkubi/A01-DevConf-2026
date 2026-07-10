@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 .container{
     max-width: 1280px;
@@ -10,13 +11,14 @@
 
 .common-btn{
     background-color: #1D4ED8;
-    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
     border-radius: 10px;
     outline: none;
     border: none;
     color: white;
     cursor: pointer;
-    box-shadow: 0 0px 5px #577fec;
 }
 .common-btn:hover{
     background-color: #3c68e0;
@@ -29,7 +31,7 @@
     padding: 20px 60px;
 }
 .logo img{
-    height: auto;
+    height:auto;
     max-width: 100%;
     display: block;
     padding: 5px;
@@ -45,6 +47,11 @@
     text-decoration: none;
     color: #575757;
     font-size: 16px;
+    padding: 10px;
+    border-radius: 10px 15px;
+}
+.nav-container li:hover{
+    background-color: #eef1fa;
 }
 
 /* Banner/Hero Section */
@@ -74,6 +81,7 @@
 .hero-content h1{
     font-size: 5rem;
     font-weight: bold;
+    text-align: center;
 }
 .hero-content p{
     font-size: 1.4rem;
@@ -86,3 +94,47 @@
     font-weight: bold;
 }
 
+/* Meet the speakers section */
+.meet-speakers-parent{
+    padding: 80px 60px;
+}
+.meet-speakers-parent h2{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #000102;
+}
+.meet-speakers-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 56px 0;
+}
+.meet-speakers-container .box{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.meet-speakers-box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 8px;
+    padding: 24px;
+}
+.meet-speakers-box-content span{
+    color: #2563EB;
+    font-size: 0.75rem;
+    font-size: 600;
+}
+.meet-speakers-box-content h3{
+    color: #0D1B2A;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.meet-speakers-box-content p{
+    color: #575757;
+    font-size: 0.9rem;
+}
