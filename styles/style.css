@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0px 20px #577fec;
+}
+.common-btn:hover{
+    background-color: #3c68e0;
+}
+/* Navbar section */
+.nav-container-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.logo img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+    padding: 5px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.nav-container li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+}
