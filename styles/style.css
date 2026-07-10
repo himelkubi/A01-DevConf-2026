@@ -10,13 +10,13 @@
 
 .common-btn{
     background-color: #1D4ED8;
-    padding: 12px;
+    padding: 8px 20px;
     border-radius: 10px;
     outline: none;
     border: none;
     color: white;
     cursor: pointer;
-    box-shadow: 0 0px 20px #577fec;
+    box-shadow: 0 0px 5px #577fec;
 }
 .common-btn:hover{
     background-color: #3c68e0;
@@ -46,3 +46,43 @@
     color: #575757;
     font-size: 16px;
 }
+
+/* Banner/Hero Section */
+.hero-parent{
+    background:
+        linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0)),
+        url("images/banner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.hero-content h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.hero-content p{
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 700px;
+}
+.banner-btn{
+    padding: 15px 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
