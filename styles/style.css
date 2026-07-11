@@ -6,6 +6,7 @@
     font-family: "Open Sans", sans-serif;
 }
 .container{
+    background-color: #f3f6fd;
     max-width: 1280px;
     margin: auto;
     padding: 0 20px;
@@ -28,6 +29,7 @@
 .no-hover:hover{
     background-color: inherit;
 }
+
 /* Navbar section */
 .nav-container-parent{
     display: flex;
@@ -101,7 +103,7 @@
 
 /* Meet the speakers section */
 .meet-speakers-parent{
-    padding: 80px 0;
+    padding: 80px 60px;
 }
 .meet-speakers-parent h2{
     font-size: 56px;
@@ -242,7 +244,7 @@
 
 /* Our Sponsors section */
 .sponsors{
-    padding: 80px 0;
+    padding: 80px;
 }
 .sponsors-heading{
     text-align: center;
