@@ -25,6 +25,9 @@
 .common-btn:hover{
     background-color: #3c68e0;
 }
+.no-hover:hover{
+    background-color: inherit;
+}
 /* Navbar section */
 .nav-container-parent{
     display: flex;
@@ -108,7 +111,7 @@
 }
 .meet-speakers-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr) ;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
@@ -121,7 +124,10 @@
 .meet-speakers-container .box img{
     width: 100%;
     height: auto;
+    object-fit: cover;
     display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .meet-speakers-box-content{
     display: flex;
@@ -144,4 +150,92 @@
 .meet-speakers-box-content p{
     color: #575757;
     font-size: 0.9rem;
+}
+
+/* secure your spot section */
+
+.secure-spot-heading{
+    text-align: center;
+}
+.secure-spot-heading h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.secure-spot-heading p{
+    font-size: 1rem;
+    color: #575757;
+}
+.secure-spot-pricing-container{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+.secure-spot-pricing-container-box{
+    border: 1px solid #E5E7EB;
+    background-color: #F8F9FB;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+}
+.secure-spot-pricing-container-box-content-up h3{
+  color: #888888;
+  font-size: 1rem;
+  font-weight: 600;  
+}
+.secure-spot-pricing-container-box-content-up h2{
+    color: #0D1B2A;
+    font-size: 2.75rem;
+    font-weight: bold;
+
+}
+.secure-spot-pricing-container-box-content-up p{
+    color: #888888;
+    font-size: 0.8125rem;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+.features-list{
+    padding-left: 20px;
+}
+.features-list li{
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 0.875rem;
+}
+.features-list li::marker{
+    color: #2563EB;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+.pricing-card-btn{
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.pro-box{
+    background-color: #0D1B2A;
+}
+.pro-box h3{
+    color: #93C5FD;
+}
+.pro-box h2{
+    color: #FFFFFF;
+}
+.pro-list li{
+    color: #FFFFFF;
+}
+.pricing-contact-btn{
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
 }
