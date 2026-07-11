@@ -288,6 +288,41 @@
     max-width:120px;
     width:100%;
     height:auto;
-    
+}
+
+/* Footer section */
+
+.footer-root{
+    background-color: #0D1B2A;
+    padding: 56px 60px 32px;
+}
+.footer-parent{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-parent img{
+    width: 120px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.footer-parent div span{
+    color: #eaeffd;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.authority{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #eaeffd;
+}
+.privacy-terms{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
